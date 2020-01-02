@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fa7a7a;
+  text-align: center;
+}
+header {
+  height: 80px;
+  width: 100%;
+}
+article {
+  height: calc(100vh - 120px);
+}
+footer {
+  height: 40px;
+  width: 100%;
+}
