@@ -11,6 +11,11 @@ header {
 article {
   height: calc(100vh - 120px);
 }
+div {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
 footer {
   height: 40px;
   width: 100%;
