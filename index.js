@@ -1,28 +1,28 @@
 
-var cats = [
+var animals = [
   {
     name: 'queen',
-    image: 'images/cat1.jpg'
+    image: 'images/dog1.jpg'
   },
   {
     name: 'meow',
-    image: 'images/cat2.jpg'
+    image: 'images/dog2.jpg'
   },
   {
     name: 'fisher',
-    image: 'images/cat3.jpg'
+    image: 'images/dog3.jpg'
   },
   {
     name: 'moon',
-    image: 'images/cat4.jpg'
+    image: 'images/dog4.jpg'
   }
 ]
-var cat;
+var animal;
 function randomizeCats() {
-  catId = Math.round(Math.random() * 3);
-  cat = cats[catId];
-  $("#cat h1").text(cat.name);
-  $("#cat img").attr('src', cat.image);
+  animalId = Math.round(Math.random() * 3);
+  animal = animals[animalId];
+  $("#animal h1").text(animal.name);
+  $("#animal img").attr('src', animal.image);
 }
 $( document ).ready(function() {
   randomizeCats();
