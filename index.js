@@ -2,18 +2,34 @@
 var animals = [
   {
     name: 'queen',
-    image: 'images/dog1.jpg'
+    image: 'images/cat1.jpg'
   },
   {
     name: 'meow',
-    image: 'images/dog2.jpg'
+    image: 'images/cat2.jpg'
   },
   {
     name: 'fisher',
-    image: 'images/dog3.jpg'
+    image: 'images/cat3.jpg'
   },
   {
     name: 'moon',
+    image: 'images/cat4.jpg'
+  },
+  {
+    name: 'guay',
+    image: 'images/dog1.jpg'
+  },
+  {
+    name: 'melchor',
+    image: 'images/dog2.jpg'
+  },
+  {
+    name: 'gaspar',
+    image: 'images/dog3.jpg'
+  },
+  {
+    name: 'baltasar',
     image: 'images/dog4.jpg'
   }
 ]
