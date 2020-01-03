@@ -11,6 +11,16 @@ header {
 article {
   height: calc(100vh - 120px);
 }
+#animal {
+  display: none;
+}
+form{
+  display: none;
+}
+form input {
+  display: block;
+  margin: 10px auto;
+}
 div {
   width: 400px;
   height: 400px;
